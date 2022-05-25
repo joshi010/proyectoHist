@@ -1,6 +1,6 @@
 //galería
 document.querySelector('.gal').onclick = () => {
-    console.log('nigger')
+    console.log('Josué Venegas ©2022');
 }
 
 document.querySelectorAll('.gal').forEach(item => {
