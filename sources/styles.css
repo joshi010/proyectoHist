@@ -274,6 +274,10 @@ figcaption{
         text-align: left;
         width: 350px
     }
+
+    .gal.big{
+        width: 65%;
+    }
 }
 
 @media only screen and (max-width: 425px){
@@ -301,6 +305,10 @@ figcaption{
     }
 
     .button-container{
+        width: 100%;
+    }
+
+    .gal.big{
         width: 100%;
     }
 }
