@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.945);
 }
 
 h1{
@@ -29,7 +29,7 @@ h1{
 
 .jumbotron.disap{
     height: 150px;
-    transition: all 1s ease-in-out;
+    transition: all 1ps ease-in-out;
     cursor:not-allowed;
     text-shadow: 10px 7px 5px #000;;
 }
@@ -85,6 +85,11 @@ h1{
 
 #titles{
     margin: 20px;
+}
+
+#galeria{
+    display: none;
+    background-color: greenyellow;
 }
 
 .btn{
@@ -191,6 +196,57 @@ h1{
 
 #t2{
     color: #fff;
+}
+
+.gal-flex{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.gal{
+    overflow: hidden;
+    width: 400px;
+    height: 210px;
+    cursor: pointer;
+
+}
+
+.gal img{
+    width: 100%;
+    position: relative;
+
+}
+
+.gal.big{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+    position:fixed;
+    margin: 0 auto;
+    width: 750px;
+    height: 100%;
+    padding: 0 100%;
+    background-color: #000000bf;
+    transition:all 0.3s;
+
+}
+
+.saspace{
+    width: 400px;
+    height: 210px;
+    background-color: greenyellow;
+    display: none;
+}
+
+figcaption{
+    color: #fff;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
 }
 
 
